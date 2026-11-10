@@ -1,0 +1,21 @@
+body {
+    background-color: #d895f2;
+}
+.static {
+    position: absolute;
+    transition: 0.3s;
+}
+.static:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.static:active {
+    transition: 0.05s;
+    transform: scale(0.9);
+}
+.noanims {
+    position: absolute;
+}
+.dynamic {
+    position: absolute;
+}
