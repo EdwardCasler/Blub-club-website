@@ -1,6 +1,11 @@
 body {
     background-color: #d895f2;
 }
+
+* {
+    margin: 0;
+    outline: 1px solid red;
+}
 .static {
     position: absolute;
     transition: 0.3s;
